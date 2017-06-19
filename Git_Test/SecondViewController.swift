@@ -18,6 +18,8 @@ class SecondViewController: UIViewController {
             print("counter is currently at \(counter)")
         }
         
+        print("more changes which i have made")
+        print("even more")
     }
     
     override func viewDidLoad() {
