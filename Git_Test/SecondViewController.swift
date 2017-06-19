@@ -8,8 +8,18 @@
 
 import UIKit
 
+var counter = 0
+
 class SecondViewController: UIViewController {
 
+    func counting() {
+        
+        if counter == 0 {
+            print("counter is currently at \(counter)")
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
